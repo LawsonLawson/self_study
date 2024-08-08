@@ -1,0 +1,3 @@
+## SELF TAUGHT JOURNEY
+
+- `python`

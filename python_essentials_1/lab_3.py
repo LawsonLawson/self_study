@@ -59,6 +59,7 @@ if end_time_minute >= 60:
 if end_time_hour >= 24:
     end_time_hour = end_time_hour - 24
 
+# To fix print statement ...
 print("If the function begins at {}:{} and last for a during of {}:{}, it\
       will end at {}:{}".format(start_time_hour, start_time_minute,
       duration_time_hour, duration_time_minute, end_time_hour,

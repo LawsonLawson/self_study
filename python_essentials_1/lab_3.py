@@ -39,12 +39,20 @@ Sample input:
 Expected output: 1:0
 '''
 # We prompt the user for the starting time
+print("Please provide the correct time according to this format:\n\
+Hour mark : Minute mark\n")
 start_time_hour = int(input(" >>> Starting time (Hour mark): "))
 start_time_minute = int(input(" >>> Starting time (Minute mark): "))
+print(f"Start time is {start_time_hour}:{start_time_minute} according to\
+your input\n")
 
 # We prompt the user for the duration
+print("Please provide the correct duration time according to this format:\n\
+Hour mark: Minute mark\n")
 duration_time_hour = int(input(" >>> Duration time (Hour mark): "))
 duration_time_minute = int(input(" >>> Duration time (Minute mark): "))
+print(f"Duration is {duration_time_hour}:{duration_time_minute} according to\
+ your input\n")
 
 # Now we compute the ending time based on the start and duration time
 end_time_hour = start_time_hour + duration_time_hour
@@ -60,7 +68,7 @@ if end_time_hour >= 24:
     end_time_hour = end_time_hour - 24
 
 # To fix print statement ...
-print("If the function begins at {}:{} and last for a during of {}:{}, it\
-      will end at {}:{}".format(start_time_hour, start_time_minute,
+print("If the function begins at {}:{} and last for a during of {}:{},\
+it will end at {}:{}".format(start_time_hour, start_time_minute,
       duration_time_hour, duration_time_minute, end_time_hour,
       end_time_minute))

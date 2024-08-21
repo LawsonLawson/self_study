@@ -20,13 +20,16 @@ Sum:              7
 Difference:       3
 Product:         10
 '''
-first_number = float(input("Enter first number: "))
-second_number = float(input("Enter second number: "))
+try:
+    first_number = float(input("Enter first number: "))
+    second_number = float(input("Enter second number: "))
 
-_sum = first_number + second_number
-_difference = first_number - second_number
-_product = first_number * second_number
+    _sum = first_number + second_number
+    _difference = first_number - second_number
+    _product = first_number * second_number
 
-print("Sum: {:>10}".format(_sum))
-print("Difference: {:>10}".format(_difference))
-print("Product: {:>10}".format(_product))
+    print("Sum: {:>10}".format(_sum))
+    print("Difference: {:>10}".format(_difference))
+    print("Product: {:>10}".format(_product))
+except ValueError:
+    print("invalid input")

@@ -50,7 +50,7 @@ Expected output:
 vowels = ['I', 'E', 'O', 'U', 'A']
 
 # propmpt user for input
-user_word = str(input("Input Sample: ")).upper()
+user_word = input("Input Sample: ").upper()
 
 # iterate over the user_input
 for letter in user_word:
@@ -58,3 +58,15 @@ for letter in user_word:
     # check to see in a vowel is encountered, if yes, skip it
     if letter not in vowels:
         print(letter)  # print anything else apart from a vowel
+'''
+Or we could implement it this way :
+
+
+user_input = input("Input Sample: ")
+for letter in user_input:
+    if letter == 'A' or letter == 'O' or letter == 'U' or letter == 'E' or \
+            letter == 'I':
+        continue
+    else:
+        print(letter)
+'''

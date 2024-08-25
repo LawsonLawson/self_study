@@ -58,7 +58,8 @@ try:
         exit()
 
     else:
-        # if user input is a positive integer .. we start building pyramid ..
+        # if user input is a positive integer (at least 3) we can build with ..
+        # we start building pyramid from scratch..
         height = 0
 
         # build pyramind starting with one block ..

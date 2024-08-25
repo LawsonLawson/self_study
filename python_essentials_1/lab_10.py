@@ -68,7 +68,7 @@ try:
             # so we subract 1 on first iteration and increase height ..
             # and do same but the previous + 1 (2, 3, 4 ...)
 
-            user_input = user_input - count
+            user_input -= count
             if user_input >= 0:  # check if input is greater or equal to 0
 
                 height += 1  # then increase height by 1

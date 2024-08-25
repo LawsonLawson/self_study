@@ -74,4 +74,4 @@ try:
                 height += 1  # then increase height by 1
         print("The height of the pyramid: {}".format(height))
 except ValueError:
-    print("Please enter a valid integers .. I cannot work with strings")
+    print("Please enter a valid integer .. I cannot work with strings")

@@ -143,7 +143,8 @@ try:
     # we keep track of the steps
     steps_taken = 0
 
-    # we only execute this block so long as user_input isn't 0
+    # we only execute this block so long as user_input isn't 1, once
+    # it becomes 1, we stop
     while user_input != 1:
 
         # we check if the user_input is odd and handle it accordingly

@@ -58,6 +58,7 @@ for letter in user_word:
     # check to see in a vowel is encountered, if yes, skip it
     if letter not in vowels:
         print(letter)  # print anything else apart from a vowel
+
 '''
 Or we could implement it this way :
 
